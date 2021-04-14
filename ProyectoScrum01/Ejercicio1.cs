@@ -10,12 +10,16 @@ using System.Windows.Forms;
 
 namespace ProyectoScrum01
 {
+    
+    
     public partial class Ejercicio1 : Form
     {
         public Ejercicio1()
         {
             InitializeComponent();
         }
+
+
 
         public static int factorial(int numero) {
             if (numero == 0) {
