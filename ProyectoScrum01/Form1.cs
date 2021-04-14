@@ -16,5 +16,24 @@ namespace ProyectoScrum01
         {
             InitializeComponent();
         }
+
+        private void btnEjercicio7_Click(object sender, EventArgs e)
+        {
+            Ejercicio7 ejercicio7 = new Ejercicio7();
+            ejercicio7.Show();
+        }
+
+        private void btnEjercicio8_Click(object sender, EventArgs e)
+        {
+
+            Ejercicio8 ejercicio8 = new Ejercicio8();
+            ejercicio8.Show();
+        }
+
+        private void btnEjercicio6_Click(object sender, EventArgs e)
+        {
+            Ejercicio6 ejercicio6 = new Ejercicio6();
+            ejercicio6.Show();
+        }
     }
 }
