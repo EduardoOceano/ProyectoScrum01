@@ -74,6 +74,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Ejercicio6.resx">
       <DependentUpon>Ejercicio6.cs</DependentUpon>
+>>>>>>> 7de5312888995e071b2e28eeb75208bfac6483c7
     </EmbeddedResource>
     <EmbeddedResource Include="Ejercicio7.resx">
       <DependentUpon>Ejercicio7.cs</DependentUpon>
