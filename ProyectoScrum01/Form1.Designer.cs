@@ -50,6 +50,7 @@ namespace ProyectoScrum01
             // 
             this.button2.Location = new System.Drawing.Point(462, 13);
             this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> 3d2e5ab2bf7e4eb68434324b1681991746c378b7
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(100, 28);
             this.button2.TabIndex = 1;
@@ -94,6 +95,7 @@ namespace ProyectoScrum01
             this.Controls.Add(this.btnEjercicio6);
             this.Controls.Add(this.btnEjercicio8);
             this.Controls.Add(this.btnEjercicio7);
+>>>>>>> 3d2e5ab2bf7e4eb68434324b1681991746c378b7
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
