@@ -46,11 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ejercicio1.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Ejercicio10.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Ejercicio10.Designer.cs">
       <DependentUpon>Ejercicio10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio2.cs">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Ejercicio3.cs">
       <SubType>Form</SubType>
@@ -63,6 +69,12 @@
     </Compile>
     <Compile Include="Ejercicio4.Designer.cs">
       <DependentUpon>Ejercicio4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio5.Designer.cs">
+      <DependentUpon>Ejercicio5.cs</DependentUpon>
     </Compile>
     <Compile Include="Ejercicio7.cs">
       <SubType>Form</SubType>
@@ -104,6 +116,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Ejercicio4.resx">
       <DependentUpon>Ejercicio4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio5.resx">
+      <DependentUpon>Ejercicio5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ejercicio6.resx">
       <DependentUpon>Ejercicio6.cs</DependentUpon>
