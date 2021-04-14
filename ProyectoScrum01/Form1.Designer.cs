@@ -31,50 +31,72 @@ namespace ProyectoScrum01
         {
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnEjercicio7 = new System.Windows.Forms.Button();
+            this.btnEjercicio8 = new System.Windows.Forms.Button();
+            this.btnEjercicio6 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
             // 
-
-            this.button1.Location = new System.Drawing.Point(78, 62);
-            this.button1.Location = new System.Drawing.Point(386, 70);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Location = new System.Drawing.Point(380, 11);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(56, 19);
+            this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(78, 113);
-            this.button2.Location = new System.Drawing.Point(195, 105);
+            this.button2.Location = new System.Drawing.Point(462, 13);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(100, 28);
             this.button2.TabIndex = 1;
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnEjercicio7
             // 
-            this.button3.Location = new System.Drawing.Point(78, 164);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnEjercicio7.Location = new System.Drawing.Point(361, 133);
+            this.btnEjercicio7.Name = "btnEjercicio7";
+            this.btnEjercicio7.Size = new System.Drawing.Size(94, 23);
+            this.btnEjercicio7.TabIndex = 2;
+            this.btnEjercicio7.Text = "Ejercicio 07";
+            this.btnEjercicio7.UseVisualStyleBackColor = true;
+            this.btnEjercicio7.Click += new System.EventHandler(this.btnEjercicio7_Click);
+            // 
+            // btnEjercicio8
+            // 
+            this.btnEjercicio8.Location = new System.Drawing.Point(361, 163);
+            this.btnEjercicio8.Name = "btnEjercicio8";
+            this.btnEjercicio8.Size = new System.Drawing.Size(94, 23);
+            this.btnEjercicio8.TabIndex = 3;
+            this.btnEjercicio8.Text = "Ejercicio 08";
+            this.btnEjercicio8.UseVisualStyleBackColor = true;
+            this.btnEjercicio8.Click += new System.EventHandler(this.btnEjercicio8_Click);
+            // 
+            // btnEjercicio6
+            // 
+            this.btnEjercicio6.Location = new System.Drawing.Point(361, 104);
+            this.btnEjercicio6.Name = "btnEjercicio6";
+            this.btnEjercicio6.Size = new System.Drawing.Size(94, 23);
+            this.btnEjercicio6.TabIndex = 4;
+            this.btnEjercicio6.Text = "Ejercicio 06";
+            this.btnEjercicio6.UseVisualStyleBackColor = true;
+            this.btnEjercicio6.Click += new System.EventHandler(this.btnEjercicio6_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button3);
-            this.ClientSize = new System.Drawing.Size(600, 366);
+            this.Controls.Add(this.btnEjercicio6);
+            this.Controls.Add(this.btnEjercicio8);
+            this.Controls.Add(this.btnEjercicio7);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -85,7 +107,9 @@ namespace ProyectoScrum01
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnEjercicio7;
+        private System.Windows.Forms.Button btnEjercicio8;
+        private System.Windows.Forms.Button btnEjercicio6;
     }
 }
 
