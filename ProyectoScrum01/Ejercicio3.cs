@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ProyectoScrum01
@@ -15,6 +8,31 @@ namespace ProyectoScrum01
         public Ejercicio3()
         {
             InitializeComponent();
+        }
+        public static int division(int n1,int n2) {
+
+            int dividendo = n1 - n2;
+            int contador = 0;
+            while (dividendo >= 0)
+            {
+                contador = contador + 1;
+                dividendo = dividendo - n2;
+
+            }
+            return contador;
+
+        }
+
+        private void btnCalcular_Click(object sender, EventArgs e)
+        {
+            string numeroBase = txtBase.Text;
+            int n1 = Int32.Parse(numeroBase);
+            string numeroResta = txtNumeroResta.Text;
+            int n2 = Int32.Parse(numeroResta);
+
+            txtContador.Text = division(n1, n2) + "";
+
+
         }
     }
 }

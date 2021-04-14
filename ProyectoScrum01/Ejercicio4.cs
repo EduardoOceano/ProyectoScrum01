@@ -16,5 +16,22 @@ namespace ProyectoScrum01
         {
             InitializeComponent();
         }
+        public static string InvertirManualmente(string cadena)
+        {
+            string cadenaInvertida = "";
+            // Recorrer cadena letra por letra
+            foreach (char letra in cadena)
+            {
+                // Anteponer la letra a la cadena invertida
+                cadenaInvertida = letra + cadenaInvertida;
+            }
+            return cadenaInvertida;
+        }
+
+        private void btnInvertir_Click(object sender, EventArgs e)
+        {
+            string cadena = txtNumero.Text;
+            txtNumeroInvertido.Text = InvertirManualmente(cadena);
+        }
     }
 }
