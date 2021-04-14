@@ -31,12 +31,20 @@ namespace ProyectoScrum01
         {
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+<<<<<<< HEAD
+            this.button3 = new System.Windows.Forms.Button();
+=======
+>>>>>>> 3d2e5ab2bf7e4eb68434324b1681991746c378b7
             this.SuspendLayout();
             // 
             // button1
             // 
+<<<<<<< HEAD
+            this.button1.Location = new System.Drawing.Point(78, 62);
+=======
             this.button1.Location = new System.Drawing.Point(386, 70);
             this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+>>>>>>> 3d2e5ab2bf7e4eb68434324b1681991746c378b7
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(56, 19);
             this.button1.TabIndex = 0;
@@ -45,18 +53,39 @@ namespace ProyectoScrum01
             // 
             // button2
             // 
+<<<<<<< HEAD
+            this.button2.Location = new System.Drawing.Point(78, 113);
+=======
             this.button2.Location = new System.Drawing.Point(195, 105);
+>>>>>>> 3d2e5ab2bf7e4eb68434324b1681991746c378b7
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 1;
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
             // 
+<<<<<<< HEAD
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(78, 164);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 2;
+            this.button3.Text = "button3";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+=======
+>>>>>>> 3d2e5ab2bf7e4eb68434324b1681991746c378b7
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button3);
+=======
             this.ClientSize = new System.Drawing.Size(600, 366);
+>>>>>>> 3d2e5ab2bf7e4eb68434324b1681991746c378b7
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
@@ -70,6 +99,10 @@ namespace ProyectoScrum01
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+<<<<<<< HEAD
+        private System.Windows.Forms.Button button3;
+=======
+>>>>>>> 3d2e5ab2bf7e4eb68434324b1681991746c378b7
     }
 }
 
