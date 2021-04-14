@@ -16,7 +16,7 @@ namespace ProyectoScrum01
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Ejercicio10());
+            Application.Run(new Form1());
         }
     }
 }

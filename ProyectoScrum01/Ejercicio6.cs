@@ -26,8 +26,8 @@ namespace ProyectoScrum01
             int res = Convert.ToInt32(listBox1.Items[0]);
             for (int i = 1; i < listBox1.Items.Count; i++)
                 res += Convert.ToInt32(listBox1.Items[i]);
-            }
             textBox2.Text = res.ToString();
-        {
+        }
+        
     }
 }
