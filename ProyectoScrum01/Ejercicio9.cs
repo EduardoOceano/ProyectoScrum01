@@ -20,12 +20,16 @@ namespace ProyectoScrum01
         private void BtnMostrar_Click(object sender, EventArgs e)
         {
             string[] pid = txtVector.Text.Split(',');
-            var menor = pid.Min();
-            foreach (string v in pid)
+            int[] v2 = new int[pid.Length];
+
+            for (int v = 0; v < pid.Length; v++)
             {
-                txtNumero.Text = menor;
+                v2[v] = int.Parse(pid[v]);
+
 
             }
+            var menor = v2.Min();
+            txtNumero.Text = menor.ToString();
         }
     }
 }
