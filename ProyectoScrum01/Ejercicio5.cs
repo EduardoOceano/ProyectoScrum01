@@ -16,8 +16,24 @@ namespace ProyectoScrum01
         {
             InitializeComponent();
         }
+        public static int sumaDigitos(int entero) {
+            int resto = 0;
+            while (entero % 10 != 0)
+            {
+                resto = entero % 10 + resto;
+                entero = entero / 10;
+            }
+            return resto;
+        
+        }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int numero = Convert.ToInt32(textBox1.Text);
+            textBox2.Text = sumaDigitos(numero) + "";
+        }
+
+        private void Ejercicio5_Load(object sender, EventArgs e)
         {
 
         }
