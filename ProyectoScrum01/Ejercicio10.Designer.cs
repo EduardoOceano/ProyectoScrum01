@@ -31,18 +31,19 @@
             this.txtVector = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.txtNumero = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtVector
             // 
-            this.txtVector.Location = new System.Drawing.Point(58, 33);
+            this.txtVector.Location = new System.Drawing.Point(58, 53);
             this.txtVector.Name = "txtVector";
             this.txtVector.Size = new System.Drawing.Size(161, 22);
             this.txtVector.TabIndex = 0;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(250, 31);
+            this.button1.Location = new System.Drawing.Point(266, 53);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(195, 23);
             this.button1.TabIndex = 1;
@@ -58,11 +59,21 @@
             this.txtNumero.Size = new System.Drawing.Size(161, 22);
             this.txtNumero.TabIndex = 2;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(55, 21);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(183, 17);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Vector separado por comas";
+            // 
             // Ejercicio10
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.txtNumero);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtVector);
@@ -78,5 +89,6 @@
         private System.Windows.Forms.TextBox txtVector;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox txtNumero;
+        private System.Windows.Forms.Label label1;
     }
 }
